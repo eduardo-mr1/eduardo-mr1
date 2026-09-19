@@ -10,7 +10,8 @@ limitaciones quedan escritas en vez de descubrirse en produccion.
 **[Vigía](https://github.com/eduardo-mr1/vigia)** · TypeScript
 GitHub Action que detecta **pruebas que pasan sin verificar nada** y lo comenta
 en cada Pull Request. Una suite verde no significa nada si las pruebas no
-afirman; esto lo hace visible en la revision.
+afirman; esto lo hace visible en la revision. 129 pruebas propias, y se
+analiza a si misma en cada push.
 
 **[Control de Gastos](https://github.com/eduardo-mr1/control-de-gastos)** · React Native + Expo
 App de gastos para iOS y Android con sincronizacion offline, como caso de
@@ -22,7 +23,8 @@ aserciones en Postman · reporte de 8 defectos reales con verificacion de cierre
 
 **[Proyectos de Programacion](https://github.com/eduardo-mr1/proyectos-de-programacion)** · Node.js + React
 API REST con JWT · cliente en React · motor de busqueda con indice invertido y
-BM25 escrito sin dependencias · 56 pruebas automatizadas.
+BM25 escrito sin dependencias, 33 pruebas, hasta 593x mas rapido que busqueda
+lineal en consultas selectivas.
 
 ### El ciclo completo, sobre la misma aplicacion
 
