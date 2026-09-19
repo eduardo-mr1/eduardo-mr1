@@ -1,42 +1,42 @@
-## Hola, soy Eduardo Maytorena
+## Hi, I'm Eduardo Maytorena
 
-Trabajo en **aseguramiento de calidad de software** y construyo las
-aplicaciones que pruebo. Vengo del lado de romper sistemas, y eso cambia como
-escribo el codigo: cada pieza no trivial deja una prueba que la cubre, y las
-limitaciones quedan escritas en vez de descubrirse en produccion.
+I work in **software quality assurance** and build the applications I test.
+I come from the side that breaks systems, and that changes how I write code:
+every non-trivial piece leaves a test that covers it, and limitations are
+written down instead of discovered in production.
 
-### Proyectos
+### Projects
 
 **[Vigía](https://github.com/eduardo-mr1/vigia)** · TypeScript
-GitHub Action que detecta **pruebas que pasan sin verificar nada** y lo comenta
-en cada Pull Request. Una suite verde no significa nada si las pruebas no
-afirman; esto lo hace visible en la revision. 129 pruebas propias, y se
-analiza a si misma en cada push.
+GitHub Action that detects **tests that pass without verifying anything** and
+comments it on every Pull Request. A green suite means nothing if the tests
+don't assert; this makes that visible at review time. 129 tests of its own,
+and it lints itself on every push.
 
 **[Control de Gastos](https://github.com/eduardo-mr1/control-de-gastos)** · React Native + Expo
-App de gastos para iOS y Android con sincronizacion offline, como caso de
-estudio de desarrollo movil y calidad.
+Expense-tracking app for iOS and Android with offline sync, as a case study
+in mobile development and quality.
 
 **[Proyectos de QA](https://github.com/eduardo-mr1/proyectos-de-qa)** · Playwright + Postman
-Plan de pruebas y 17 casos de diseno · 18 pruebas E2E · 25 peticiones y 96
-aserciones en Postman · reporte de 8 defectos reales con verificacion de cierre.
+Test plan with 17 designed cases · 18 E2E tests · 25 requests and 96
+assertions in Postman · report on 8 real defects with closure verification.
 
 **[Proyectos de Programacion](https://github.com/eduardo-mr1/proyectos-de-programacion)** · Node.js + React
-API REST con JWT · cliente en React · motor de busqueda con indice invertido y
-BM25 escrito sin dependencias, 33 pruebas, hasta 593x mas rapido que busqueda
-lineal en consultas selectivas.
+JWT REST API · React client · full-text search engine with an inverted index
+and BM25, written with zero dependencies · 56 automated tests, up to 593x
+faster than linear search on selective queries.
 
-### El ciclo completo, sobre la misma aplicacion
+### The full cycle, on the same application
 
-Los dos ultimos repositorios estan conectados a proposito. El de QA prueba la
-aplicacion del otro: la suite E2E encontro que el checkbox no era optimista, el
-testing exploratorio destapo que el email distinguia mayusculas y dejaba a los
-usuarios fuera de sus propias tareas, y cada defecto corregido dejo una prueba
-de regresion que impide que vuelva.
+The last two repositories are connected on purpose. The QA one tests the
+application from the other: the E2E suite found the checkbox wasn't
+optimistic, exploratory testing uncovered that email was case-sensitive and
+locked users out of their own tasks, and every fixed defect left behind a
+regression test that keeps it from coming back.
 
-Encontrar el bug, reportarlo con evidencia, corregirlo y verificar el cierre.
+Find the bug, report it with evidence, fix it, verify the fix.
 
-### Herramientas
+### Tools
 
 `Playwright` `Postman` `Newman` `Jest` `Node.js` `Express` `React`
 `React Native` `TypeScript` `SQLite` `Zod` `Git` `GitHub Actions` `Java` `Maven`
